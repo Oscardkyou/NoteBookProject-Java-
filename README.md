@@ -25,3 +25,40 @@ The project follows the Model-View-Presenter (MVP) pattern and adheres to the SO
 
 Run the `Main` class to start the application. Follow the on-screen prompts to manage your notes.
 
+
+оздание новой ветки:
+
+Запустите следующую команду, где new-branch-name — это имя вашей новой ветки:
+
+bash
+
+git checkout -b new-branch-name
+
+Внесение изменений:
+
+Внесите необходимые изменения в вашем проекте. Когда вы будете готовы закоммитить их, выполните:
+
+bash
+
+git add .
+git commit -m "Описание ваших изменений"
+
+Загрузка ветки на сервер:
+
+Запустите следующую команду, чтобы загрузить вашу новую ветку на сервер:
+
+bash
+
+git push origin new-branch-name
+
+Если вы ещё не связали ваш локальный репозиторий с удаленным, выполните:
+
+bash
+
+git remote add origin URL_ВАШЕГО_РЕПОЗИТОРИЯ
+
+а затем выполните git push как указано выше.
+
+Создание pull request:
+
+После того как вы загрузили ветку на сервер, перейдите на веб-страницу вашего репозитория (например, на GitHub, GitLab или Bitbucket). Вы должны увидеть предложение создать новый pull request для вашей ветки. Следуйте инструкциям на веб-странице, чтобы завершить создание pull request.
